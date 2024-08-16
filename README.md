@@ -5,14 +5,17 @@
 
 
 
-![image](https://github.com/user-attachments/assets/6769b068-a5a0-4d3b-9492-843f90328c27)
+![image](https://github.com/user-attachments/assets/67c14c54-00ba-47d7-8712-32fb64394c06)
+
 
 # :open_file_folder: Dataset
 ## We collected data from the 2 resources listed above. Each contained different parameters depending on the available readings. 
 - The dataset obtained from the OMNIWeb we specified the time span from Jan 2022 to May 2024 sampled every hour, the paramaters we needed were:
-![image](https://github.com/user-attachments/assets/8e20093f-6828-45f6-8d9b-4d30590ca124)
+![image](https://github.com/user-attachments/assets/0cdeb21d-78b4-4cfb-ac2b-7e5994a0c511)
+
 - The dataset obtaned from the EgSA had many parameters as it was obtained from the readings of the agencie's ground station, it is sampled at 2 reading per second:
-![EgSA Data](https://github.com/user-attachments/assets/e0b3493c-4acf-46f6-a4bc-8b4673225abf)
+![EgSA Data](https://github.com/user-attachments/assets/c70ac9e8-7185-4f2b-b2ea-7a554d2145a1)
+
   
 ## 🔄 Data Cleaning:
 ### 1. The data obtained from the OMNIWeb, we found that there are many outliers in the data, and in order to remove the outliers we did the following:
