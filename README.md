@@ -23,6 +23,9 @@
 ### 2. Due to the vast differences in sample rate between the 2 data resources we had to resample the datasets in order to be able to concatenate them in one combined dataset we decided to do the following:
 -  In the data given to us by the EgSA we took the average reading for each hour in order to be able to concatenate this data with the OMNIWeb data and create a dataset we can fit into our model. 
 
+# 🛠️ Technologies Used:
+
+
 # 🤝🏼 Contributers:
 |  Name |
 | --- |
