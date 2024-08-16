@@ -17,13 +17,13 @@
 ![EgSA Data](https://github.com/user-attachments/assets/c70ac9e8-7185-4f2b-b2ea-7a554d2145a1)
 
   
-## 🔄 Data Cleaning:
+## 🔄 Data Cleaning
 ### 1. The data obtained from the OMNIWeb, we found that there are many outliers in the data, and in order to remove the outliers we did the following:
 - We took the average reading from the rows above and below the outling rows and replaced the outling numbers.
 ### 2. Due to the vast differences in sample rate between the 2 data resources we had to resample the datasets in order to be able to concatenate them in one combined dataset we decided to do the following:
 -  In the data given to us by the EgSA we took the average reading for each hour in order to be able to concatenate this data with the OMNIWeb data and create a dataset we can fit into our model. 
 
-# 🛠️ Technologies Used:
+# 🛠️ Technologies Used
 ## `DL.ipynb`
 - **TensorFlow/Keras**
   - `tensorflow.keras.callbacks.EarlyStopping`
@@ -58,7 +58,7 @@
 - **OS** for interacting with the operating system (`os`)
 
 
-# 🤝🏼 Contributers:
+# 🤝🏼 Contributers
 |  Name |
 | --- |
 | Abdulrahman Hisham |
