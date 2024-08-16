@@ -24,6 +24,43 @@
 -  In the data given to us by the EgSA we took the average reading for each hour in order to be able to concatenate this data with the OMNIWeb data and create a dataset we can fit into our model. 
 
 # 🛠️ Technologies Used:
+# Technologies Used
+
+## Data Sources
+- **GNSS Observations** in Egypt for data collection.
+
+## `DL.ipynb`
+- **TensorFlow/Keras**
+  - `tensorflow.keras.callbacks.EarlyStopping`
+  - `tensorflow.keras.layers.LSTM, GRU, Dense, Dropout, Bidirectional, Input, Attention, Concatenate`
+  - `tensorflow.keras.models.Model, Sequential`
+  - `tensorflow.keras.optimizers.Adam`
+  - `tensorflow.keras.regularizers`
+  - `tensorflow.keras.callbacks.ModelCheckpoint`
+- **Scikit-learn**
+  - `sklearn.model_selection.train_test_split`
+  - `sklearn.decomposition.PCA`
+  - `sklearn.metrics.mean_squared_error, r2_score`
+  - `sklearn.preprocessing.MinMaxScaler`
+  - `sklearn.linear_model.LinearRegression`
+- **SHAP** for explainability (`shap`)
+- **Matplotlib** for visualization (`matplotlib.pyplot`)
+- **NumPy** for numerical operations (`numpy`)
+- **Pandas** for data manipulation (`pandas`)
+
+## `insights.ipynb`
+- **Matplotlib** for visualization (`matplotlib.pyplot`, `matplotlib.colors`)
+- **Seaborn** for advanced data visualization (`seaborn`)
+- **NumPy** for numerical operations (`numpy`)
+- **Pandas** for data manipulation (`pandas`)
+
+## `Preparing_data.ipynb`
+- **Matplotlib** for visualization (`matplotlib.pyplot`)
+- **NumPy** for numerical operations (`numpy`)
+- **Pandas** for data manipulation (`pandas`)
+- **TQDM** for progress bar (`tqdm`)
+- **Datetime** for handling date and time (`datetime`)
+- **OS** for interacting with the operating system (`os`)
 
 
 # 🤝🏼 Contributers:
