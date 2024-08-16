@@ -24,9 +24,6 @@
 -  In the data given to us by the EgSA we took the average reading for each hour in order to be able to concatenate this data with the OMNIWeb data and create a dataset we can fit into our model. 
 
 # 🛠️ Technologies Used:
-## Data Sources
-- **GNSS Observations** in Egypt for data collection.
-
 ## `DL.ipynb`
 - **TensorFlow/Keras**
   - `tensorflow.keras.callbacks.EarlyStopping`
